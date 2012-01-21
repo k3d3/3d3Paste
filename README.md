@@ -1,7 +1,7 @@
 # 3d3Paste
 3d3Paste is a simple, basic pastebin solution. It provides syntax highlighting and the ability to protect pastes with passwords.
 
-Paste URLs are also encded with base58 to ensure the URLs are short and memorable
+Paste URLs are also encoded with base58 to ensure the URLs are short and memorable
 
 ## Technologies
 We use Python 2, Bottlepy (transitioning to Flask), Pygments for syntax highlighting, and currently Fapws3 as a web server.
