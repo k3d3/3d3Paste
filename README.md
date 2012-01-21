@@ -32,7 +32,7 @@ In addition to the web interface, it's also possible to submit pastes via cURL. 
 
 This will return a link to the paste in raw form. You may also remove the initial r to access the web version of the paste, for example http://3d3.ca/pa
 
-The format, password and title are all optional. You may also remove the initial r to access the web version of the paste.
+The format, password and title are all optional.
 
 To submit a URL to shorten:
 
