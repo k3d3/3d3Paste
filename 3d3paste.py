@@ -295,14 +295,6 @@ def rawurl(urlname):
     else:
         raise HTTPError(404, "URL not in database")
 
-@route("/h")
-def nohost():
-    raise HTTPError(404, "Not found: '/h'")
-
-@route("/h", method="POST")
-def host():
-    return "omg\n" + str([i for i in bottle.request.files]) + '\n'
-
 @route("/p:pastename")
 @route("/p:pastename", method="POST")
 def paste(pastename):
