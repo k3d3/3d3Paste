@@ -49,4 +49,4 @@ We have also included a simple page to show your IP and reverse DNS, at http://3
 You may remove this in the code if you need to.
 
 ## License
-3d3Paste is released under the GPLv2. Absolutely no warranty, explicit or implied, is available. Read the header in 3d3paste.py for more information.
+3d3Paste is released under the AGPLv3. Absolutely no warranty, explicit or implied, is available. Read the header in 3d3paste.py for more information.
