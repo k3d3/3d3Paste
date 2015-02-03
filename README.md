@@ -4,14 +4,14 @@
 Paste URLs are also encoded with base58 to ensure the URLs are short and memorable
 
 ## Technologies
-We use Python 2, Bottlepy (transitioning to Flask), Pygments for syntax highlighting, and currently Fapws3 as a web server.
+We use Python 2, Bottlepy (transitioning to Flask), Pygments for syntax highlighting, and currently FAPWS3 as a web server.
 
 For the storage of pastes and URLs, we use memcachedb and memcached with the cmemcached python plugin, however we are working to make this more modular.
 
 All pastes and URLs are serialized with MsgPack.
 
 ## Installation and configuration
-Currently you need Python 2.7 along with the Bottlepy, Pygments, MsgPack, cmemcached and FapWS3 modules. FapWS3 can be replaced with any WSGI server given some work. The majority of these, if not all of them, can be installed through pip.
+Currently you need Python 2.7 along with the Bottlepy, Pygments, MsgPack, cmemcached and FAPWS3 modules. FAPWS3 can be replaced with any WSGI server given some work. The majority of these, if not all of them, can be installed through pip.
 
 Along with those modules, you need memcached and memcachedb servers running. Again, we are working to make this more modular.
 
